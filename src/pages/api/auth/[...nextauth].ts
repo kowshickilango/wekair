@@ -13,7 +13,6 @@ export default NextAuth({
         password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials, req) {
-        console.log('credentials'.credentials);
 
         try {
           const user = await axios.post(
@@ -31,6 +30,8 @@ export default NextAuth({
           );
 
           if (user) {
+            console.log("user", user);
+            
             return user.data;
           } else {
             return null;
