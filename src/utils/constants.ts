@@ -1,0 +1,1 @@
+export const bearerToken = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhbmV0b202QGdtYWlsLmNvbSIsImlhdCI6MTY5NTMxNTM2NiwiZXhwIjoxNjk3OTA3MzY2fQ.CpHXhAnHsVUUhKG5cta45NXYcdoEf5uBXAqlOGMBzls`;
